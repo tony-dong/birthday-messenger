@@ -1,0 +1,18 @@
+# --------------------
+# Node Files
+# --------------------
+.nodemonignore
+npm-debug.log
+node_modules/
+yarn-error.log
+
+# --------------------
+# App Files
+# --------------------
+lib/
+tests/results/**
+
+.env
+.nyc_output
+coverage
+.DS_Store

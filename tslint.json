@@ -1,0 +1,22 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-eslint-rules"],
+  "jsRules": {},
+  "rules": {
+    "ter-indent": [
+      true,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "quotemark": [true, "single"],
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-console": false,
+    "arrow-parens": false,
+    "max-classes-per-file": false,
+    "no-var-requires": false
+  },
+  "rulesDirectory": []
+}
